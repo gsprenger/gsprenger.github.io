@@ -1,1 +1,83 @@
 /* Site.css */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+.section {
+  width: 100%;
+  min-height: 100%;
+  display: table;
+}
+
+.index-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.index-wrapper {
+  width: 60%;
+  margin: auto;
+}
+
+.index-wrapper h1 {
+  margin: 0;
+  font-size: 38px;
+}
+
+.index-wrapper hr {
+
+}
+
+.index-wrapper ul {
+  list-style-type: none;
+}
+
+.index-wrapper li {
+  display: inline-block;
+  margin-right: 30px;
+  -webkit-animation: intro 5s;
+}
+
+.index-wrapper a, .index-wrapper a:focus, .index-wrapper a:visited {
+  color: #333;
+  text-decoration: none;
+}
+
+.index-wrapper a:hover {
+  color: #666;
+}
+
+#bio img {
+  float: right;
+}
+
+@-webkit-keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
