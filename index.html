@@ -7,48 +7,50 @@
 		<title>Gabriel Sprenger</title>
 		<link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon">
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,300,400,600" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="site.css" type="text/css"> 
     <link rel="icon" href="favicon.png">
 		<!--[if lt IE 9 ]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]--> 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 	</head>
 	<body>
 		<div class="section">
 			<div class="index-cell">
-				<div class='index-wrapper'>
-					<h1>Gabriel Sprenger</h1>
+				<div class='container'>
+					<div class='row'>
+						<div class='col col-xs-6 title ra' id='gabriel'>Gabriel</div>
+						<div class='col col-xs-6 title' id='sprenger'>Sprenger</div>
+					</div>
 					<hr>
-					<ul>
-						<li>
-							<div class='rel-wrap'><a href="#bio">Bio</a></div>
-						</li>
-						<li>
-							<div class='rel-wrap'><a href="#cv">CV</a></div>
-						</li>
-						<li>
-							<div class='rel-wrap'><a href="#projects">Projects</a></div>
-						</li>
-					</ul>
+					<div class='row'>
+						<div class='col col-xs-6 ra'>
+							<a href='#about'>About Me</a>
+						</div>
+						<div class='col col-xs-6'>
+							<a href='#projects'>Projects</a>
+						</div>
+					</div>				
 				</div>
 			</div>
     </div>
-		<div id="bio">
-			<div class="container">
-				<img src="http://dummyimage.com/150x150/333/fff.png&text=PHOTO">
-				<p>Bio</p>
+    <div class='container'>
+			<div class='row' id='about'>
+				<div class='col-md-9'>
+					<img src="http://dummyimage.com/150x150/333/fff.png&text=PHOTO">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut volutpat est. Vivamus sed tellus quam. Ut semper ut risus in dignissim. Pellentesque molestie urna ac ligula lobortis blandit. Mauris ut malesuada leo. Cras nec porttitor nisi. Praesent vel vulputate sapien. Integer in porta mi. Sed pellentesque felis in imperdiet porttitor. In hac habitasse platea dictumst. Fusce sit amet aliquet sapien. Quisque auctor erat eu purus facilisis, pharetra tempus tortor mollis. Nulla volutpat mi quam, ac elementum mauris egestas at. Pellentesque at cursus purus.</p>
+				</div>
+				<div class='col-md-3'>
+					CV
+				</div>
 			</div>
-		</div>
-		<div id="cv">
-			CV
-		</div>
-		<div id="projects">
-			Projects
-		</div>
+			<div id="projects">
+				Projects
+			</div>
+    </div>
     <footer>
     </footer>
   </body>
